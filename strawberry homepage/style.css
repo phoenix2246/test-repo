@@ -119,4 +119,33 @@ ul li a:hover::after{
     cursor: pointer;
     background: transparent;
     outline: none;
+    margin-bottom: 30px;
+}
+
+.btn .primary-btn{
+    background:#f14a60;
+    color:white;
+}
+.social-icons{
+    width: 200px;
+    text-align: center;
+    opacity: 0.4;
+    position: relative;
+    margin-left: 160px;
+}
+.social-icons img{
+   
+    
+    height: 20px;
+    
+    margin: 0px 14px;
+}
+.social-icons::after{
+    content: "";
+    width: 160px;
+    height: 1px;
+    position: absolute;
+    background: #000;
+    left: -160px;
+    top: 10px;
 }
