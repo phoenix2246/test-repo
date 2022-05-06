@@ -1,0 +1,18 @@
+﻿ASUS Precision TouchPad Driver Installation Guide for AMD Chipset
+ASUS Precision 觸控板驅動程式安裝說明 AMD晶片組平台
+
+
+1.  Download and decompress Driver to desktop  
+1.  下載並解壓縮檔案至桌面
+
+
+2.  Mouse right click on Install_PTP.bat to install driver using administrator privileges.
+2.  在Install.bat檔案上點擊滑鼠右鍵使用管理者權限安裝驅動程式
+
+3. After installation, you may confirm completion in Device manager. 
+3. 安裝完成後可至裝置管理員中確認
+
+
+注意事項:  在安裝觸控板驅動程式前請先安裝AMD晶片組驅動程式
+Note: please install AMD Chipset driver before installing Touchpad driver
+ 
