@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero{
@@ -89,5 +90,33 @@ ul li a:hover::after{
     margin-left: 15px;
     font-size: 17px ;
     border: 0;
+    outline: none;
+}
+.left-col h1{
+    font-size: 80px;
+}
+.left-col h3{
+    font-size: 35px;
+}
+
+.left-col span{
+    color: #f14a60;
+}
+.left-col p{
+    font-size: 14px;
+    color: rgb(117, 119, 119);
+    margin: 50px 0;
+    margin-right: 40px;
+    text-align: justify;
+}
+.btn button{
+    height: 50px;
+    padding: 10px 50PX;
+    margin-right: 15PX;
+    border-radius: 20px;
+    border: 1PX solid rgb(85, 84, 84);
+    color:#f14a60;
+    cursor: pointer;
+    background: transparent;
     outline: none;
 }
