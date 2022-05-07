@@ -16,6 +16,8 @@
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
+    position: relative;
+    z-index: 50;
 }
 .menu {
     /* background: #000; */
@@ -31,6 +33,7 @@
 }
 
 .text-box{
+    
     padding: 100px 0px;
     width: 50%;
 }
@@ -54,4 +57,19 @@
     color: white;
     border-radius: 5px;
     border: none;
+}
+.user-box{
+    background: #d9e0ff;
+    position: absolute;
+    top: 0;
+    
+    right: 12%;
+    z-index: 1;
+}
+
+.user-box img{
+    display: block;
+    /* padding: 100px; */
+    width: 410px;
+    margin-bottom: -205px;
 }
