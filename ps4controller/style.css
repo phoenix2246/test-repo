@@ -9,20 +9,47 @@
    
     margin: 20px 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* position: absolute; */
 }
 .header{
    
     display: flex;
     justify-content: space-between;
+    /* border-bottom: 1px solid rgb(98, 92, 92); */
+    
+   
 }
 .logo img{
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    cursor: pointer;
 }
 .navbar ul li{
     list-style: none;
     display: inline-block;
     margin-left: 20px;
+    cursor: pointer;
+}
+
+.navbar ul li:hover{
+    color: #ca166a;
+}
+
+.left-col{
+    /* flex-basis: 40%; */
+    position: relative;
+}
+
+.left-col::after
+{
+    content: "";
+    width: 10px;
+    height: 57%;
+    background-color:#ca166a;
+    position:absolute;
+    left: -40px;
+    top: 8px;
 }
 
 .left-col h1{
@@ -31,6 +58,7 @@
 .left-col h4{
     margin-top: 20px;
     color: rgb(128, 134, 134);
+    font-size: 30px;
 }
 .left-col p{
     margin-top: 6px;
@@ -41,21 +69,47 @@
     margin: 20px 0px;
 }
 .left-col button {
-    display: flex;
-   /* box-sizing: border-box; */
-   padding: 10px 20px;
-   color:white;
-   background-color: #ca166a;
-   border: none;
+    
    border-radius: 6px;
+   cursor: pointer;
+    background-color: #ca166a;
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    color: #fff;
+    transition: width 1s ;
+
+    
 
 }
 .left-col button img{
     height: 15px;
     margin-left: 20px;
+    display: none;
+  
+
+   
+    
 }
+.left-col button:hover img{ 
+    display: block;
+
+}
+.left-col button:hover{
+    display: flex;
+    width: 160px;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .main-col{
     display: flex;
+    justify-content: space-between;
+    /* padding: 120px; */
+    padding: 120px 200px 50px 160px;
+    
+     /* padding: 160px 200px; */
+   
 
     
 }
@@ -64,7 +118,10 @@
 }
 .right-col img{
     height: 400px;
-    width: 500px;
+    width: 600px;
+    position: absolute;
+   
+    z-index: 10;
    
     
    
@@ -73,4 +130,37 @@
     height: 400px;
     width: 500px;
     background-color: #ca166a;
+   
+    position: relative;
+    right: -276px;
+   border-radius: 15px 0px 0px 15px;
+   text-align: center;
+   color: aliceblue;
+}
+
+.img-bg img{
+    width: 40px;
+    height: 40px;
+    right: 130px;
+    top: 180px;
+    cursor: pointer;
+
+
+}
+.img-bg h5{
+    margin-top: 230px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+.footer{
+    text-align: center;
+
+}
+.footer img{
+    width: 16px;
+    height: 20px;
+    margin: 0px 30px;
+    margin-top: 50px;
+    cursor: pointer;
 }
