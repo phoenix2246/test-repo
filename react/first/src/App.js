@@ -4,25 +4,36 @@ import ToolsBar from './ToolsBar';
 
 
 
-class Title extends React.Component{
-  render(){
-    return(
-      <div>
-      <h1>{this.props.name}</h1>
-      </div>
-    )
-  }
-}
+// class Title extends React.Component{
+//   render(){
+//     return(
+//       <div>
+//       <h1>{this.props.name}</h1>
+//       </div>
+//     )
+//   }
+// }
+const Title = props =>(
+  <div>
+    <h1>{props.name}</h1>
+  </div>
+)
 
-class Header extends React.Component{
-  render(){
-    return(
-      <div>
-      <Title name={this.props.name}/>
-      </div>
-    )
-  }
-}
+// class Header extends React.Component{
+//   render(){
+//     return(
+//       <div>
+//       <Title name={this.props.name}/>
+//       </div>
+//     )
+//   }
+// }
+const Header = ({name}) =>(
+
+  <div>
+    <Title name={name}/>
+  </div>)
+
 
 
 class AddForm extends React.Component{
@@ -44,15 +55,20 @@ class AddForm extends React.Component{
   }
 }
 
-class Item extends React.Component{
-  render(){
-    return(
-      <li>
-        {this.props.name}, ${this.props.price}
-      </li>
-    )
-  }
-}
+// class Item extends React.Component{
+//   render(){
+//     return(
+//       <li>
+//         {this.props.name}, ${this.props.price}
+//       </li>
+//     )
+//   }
+// }
+const Item = ({name,price}) =>(
+  <li>
+    {name}, ${price}
+  </li>
+)
 
 class App extends React.Component {
   state = {
