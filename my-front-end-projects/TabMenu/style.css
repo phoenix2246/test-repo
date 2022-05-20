@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(28, 28, 53);
+}
+.container{
+    margin-top: 100px;
+    margin-left: 200px;
+    
+}
+.container h3{
+    color: aliceblue;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 20px;
+    user-select: none;
+    background-color: brown;
+    transition: all 0.5s ease;
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.slider{
+    transition: all 0.5s ease;
+    height: 5px;
+    background-color: aquamarine;
+}

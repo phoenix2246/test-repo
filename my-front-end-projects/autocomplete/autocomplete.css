@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(34, 33, 33);
+}
+
+
+.container{
+  
+    margin-top: 75px;
+    max-width: 600px;
+}
+.container h3{
+    text-align: center;
+    color: aliceblue;
+}
+
+
+.resultContainer{
+    /* width: 500px; */
+    /* height: 500px; */
+    background-color: aliceblue;
+   
+}
+.inputDiv{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px ;
+}
+
+.productImg{
+    /* display: flex; */
+    /* height: 20px;
+    width: 20px; */
+    height: 80%;
+    
+}
+
+.productItemsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 10px;
+    /* align-items: center; */
+    user-select: none;
+    cursor: pointer;
+}

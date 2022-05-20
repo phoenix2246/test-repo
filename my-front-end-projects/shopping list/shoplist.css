@@ -1,0 +1,47 @@
+.shop-input{
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.form-control{
+    max-width: 300px;
+}
+body{
+    background-color:rgb(53, 56, 61) ;
+}
+
+.od-list-container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-name{
+    background-color: rgb(233, 229, 229);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 3px;
+    user-select: none;
+    width: 150px;
+}
+.purchase{
+    text-decoration: line-through;
+}
+
+.pdc{
+    display: flex;
+
+}
+.center{
+   display: flex;
+    margin-left: 10px;
+  align-items: center;
+  color: antiquewhite;
+  cursor: pointer;
+  user-select: none;
+}

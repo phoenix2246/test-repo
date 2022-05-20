@@ -1,0 +1,87 @@
+.hamMenuContainer{
+    cursor: pointer;
+    /* background-color: yellow; */
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    
+}
+    
+.ham{
+    width: 40px;
+    height: 5px;
+    background-color: aliceblue;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    user-select: none;
+
+    
+   
+}
+.container{
+    margin-top: 100px;
+    position: relative;
+    
+}
+.container h3{
+    text-align: end;
+    color: antiquewhite;
+}
+
+body{
+    background-color: rgb(51, 51, 59);
+}
+.line1,.line2,.line3,.overlayMenu{
+    transition:all 1s ease;
+}
+
+
+.hideLine2{
+        opacity: 0;
+        
+}
+
+.rotateLine1{
+    /* transform-origin: left; */
+    transform: rotate(45deg) translateX(12px) translateY(14px);
+}
+.rotateLine3{
+    /* transform-origin: right; */
+    transform: rotate(-45deg);
+}
+li{
+    list-style: none;
+    color: antiquewhite;
+    font-size: 30px;
+    padding: 10px;
+    user-select: none;
+    cursor: pointer;
+}
+li:hover{
+    opacity: 0.5;
+}
+
+.list{
+    transition: all 1s ease;
+}
+.moveListUp{
+    transform: translateY(-50px);
+}
+
+.overlayMenu{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(13, 85, 49);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.overlayTransform{
+    opacity: 1;
+}
