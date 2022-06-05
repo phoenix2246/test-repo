@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+// import Form from './components/Form';
+// import Condition from './components/Condition';
+// import List from './components/List';
+// import Post from './components/Post';
+// import Req from './components/Request';
+// import Binding from './components/Binding';
+// import Count from './components/Count';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Binding/> */}
+      {/* <Count/> */}
+      {/* <Condition/> */}
+      {/* <Req/> */}
+      {/* <List/> */}
+      {/* <Post/> */}
+      {/* <Form/> */}
+      
     </div>
   );
 }
