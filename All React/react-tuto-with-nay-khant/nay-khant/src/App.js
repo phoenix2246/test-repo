@@ -1,5 +1,10 @@
 import React from 'react'
 import './App.css';
+import SetCounter from './components/SetCounter';
+// import Array from './components/Array';
+// import Hook from './components/HookCounter';
+// import HookObj from './components/HookObj';
+// import Inline from './components/Inline';
 // import Form from './components/Form';
 // import Condition from './components/Condition';
 // import List from './components/List';
@@ -18,7 +23,13 @@ function App() {
       {/* <List/> */}
       {/* <Post/> */}
       {/* <Form/> */}
-      
+      {/* <Inline/>
+       */}
+       {/* <HookObj/>
+        */}
+        {/* <Array/>
+         */}
+         <SetCounter/>
     </div>
   );
 }
