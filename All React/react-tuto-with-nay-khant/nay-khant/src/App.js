@@ -1,6 +1,9 @@
 import React from 'react'
 import './App.css';
-import SetCounter from './components/SetCounter';
+// import Hook from './components/HookCounter';
+import HookFetch from './components/HookFetch';
+// import SetCounter from './components/SetCounter';
+// import ClassCounter from './components/SetCounterClass';
 // import Array from './components/Array';
 // import Hook from './components/HookCounter';
 // import HookObj from './components/HookObj';
@@ -29,7 +32,10 @@ function App() {
         */}
         {/* <Array/>
          */}
-         <SetCounter/>
+         {/* <SetCounter/> */}
+         {/* <ClassCounter/> */}
+         {/* <Hook/> */}
+         <HookFetch/>
     </div>
   );
 }
