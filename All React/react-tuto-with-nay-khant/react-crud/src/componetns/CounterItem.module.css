@@ -1,0 +1,27 @@
+.title{
+    background: red;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 1rem;
+    display: inline-block;
+    width: 400px;
+}
+
+.delete{
+    background: rgb(63, 10, 207);
+    color: aliceblue;
+
+}
+
+.input{
+    background: red;
+    border: none;
+    color: aliceblue;
+    font-size: 30px;
+    border-color: none ;
+    
+}
+.input:focus{
+    outline: none;
+}
