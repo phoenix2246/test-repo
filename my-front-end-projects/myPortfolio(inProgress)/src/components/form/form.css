@@ -1,0 +1,101 @@
+.f{
+    margin-top: 50px;
+    height: 50vh;
+    width: 100vw;
+    /* background-color: blueviolet; */
+    display: flex;
+   
+}
+@media (max-width:1050px) {
+    .f{
+        margin-top: 300px;
+        flex-direction: column;
+    }
+}
+.f-left{
+    flex: 1;
+    width: 100%;
+}
+.f-right{
+    flex: 1;
+    height: 365px;
+    width: 100%;
+    /* display: flex; */
+    /* align-items: center; */
+    
+}
+.form{
+    padding: 50px;
+  
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.form input{
+    border: none;
+    margin: 10px 0px;
+    height: 30px;
+    border-bottom: 1px solid black;
+    
+}
+.form button{
+    width: 20%;
+    height: 40px;
+    background-color: #56e67e;
+    border: 1px solid #4CC46D;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.form textarea{
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+}
+.f-text{
+   padding: 50px;
+   /* text-align: center; */
+   /* height: 365px; */
+   
+    
+}
+.f-text h2,p{
+    margin-right: 5px;
+    display: inline;
+    
+
+}
+
+.f-text h2{
+    color: #4CC46D;
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 50px;
+    align-items: center;
+    /* width: 100%; */
+}
+
+.line{
+    margin-right: 20px;
+    width: 50%;
+    height: 2px;
+    background-color: #4CC46D;
+    
+}
+
+.icons{
+    margin-right: 20px;
+    cursor: pointer;
+    
+   
+}
+.icons-div{
+    display: flex;
+    margin-right: 5px;
+    width: 50%;
+    height: 25px;
+}
