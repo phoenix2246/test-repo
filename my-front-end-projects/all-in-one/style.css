@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 42px;
+    height: 42px;
+    
+   
+}
+.logo-container{
+    flex: 1;
+}
+.container{
+   padding: 1rem;
+   
+    background-color: black;
+    
+}
+.container ul{
+    display: flex;
+    align-items: center;
+   
+    
+   
+    
+}
+.container ul li{
+    color: white;
+    list-style-type: none;
+    
+    
+    
+}
+.btn{
+    display: none;
+}
+.menuItem{
+   
+    padding: 1rem;
+    text-align: center;
+}
+.menuItem:hover{
+    background-color: aqua;
+    color: brown;
+}
+.hero{
+    align-items: center;
+    display: flex;
+    background-color: rgb(16, 114, 81);
+    
+}
+.header{
+ 
+   padding: 3rem; 
+    flex-basis: 50%;
+    /* background-color: blue; */
+    
+    
+    
+   
+}
+.bg-yellow{
+    background-color: yellowgreen;
+}
+.bg-redwhite{
+    background-color: #F6D7F5;
+}
+.padding{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.contact-btn{
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.header-text{
+   font-size: 3rem;
+}
+.hero-image-container{
+    margin-left: 1rem;
+   
+    flex-basis: 50%;
+    
+}
+.noBorder{
+    border-style: none;
+}
+.footer{
+    text-align: center;
+    background-color: #F6D7F5;
+}
+.form{
+    
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.form input,textarea{
+    width: 50%;
+    height: 35px;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    border-style: none;
+    padding: 0.5rem;
+}
+@media (max-width:600px) {
+    .container ul{
+        flex-wrap: wrap;
+    }
+    .menuItem{
+       display: none;
+        width: 100%;
+        align-items: center;
+        
+    }
+    .btn{
+        display: block;
+    }
+    .show{
+        display: block;
+    }
+    .hero{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .header{
+        flex-basis: 100%;
+    }
+    .hero-image{
+        width: 300px;
+        height: 320px;
+    }
+    .hero-image-container{
+        margin-left: 5rem;
+    }
+    .circle{
+        width: 320px;
+        height: 320px;
+    }
+  
+}
