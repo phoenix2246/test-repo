@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+
+  <head>
+    <title>Vertical Solutions Group</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../../images/favicon/favicon_io/favicon-32x32.png"
+    />
+    <meta charset="utf-8" />
+    <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <![endif]-->
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../css/animations.css" />
+    <link rel="stylesheet" href="../../css/font-awesome.css" />
+    <link
+      rel="stylesheet"
+      href="../../css/main.css"
+      class="color-switcher-link"
+    />
+    <script src="../../js/vendor/modernizr-2.6.2.min.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="../../js/vendor/html5shiv.min.js"></script>
+      <script src="../../js/vendor/respond.min.js"></script>
+      <script src="../../js/vendor/jquery-1.12.4.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!--[if lt IE 9]>
+      <div class="bg-danger text-center">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="http://browsehappy.com/" class="color-main"
+          >upgrade your browser</a
+        >
+        to improve your experience.
+      </div>
+    <![endif]-->
+
+    <div class="preloader">
+      <div class="preloader_image"></div>
+    </div>
+
+    <!-- Theme -->
+    <div class="fix">
+      <div class="themeIconCon moon">
+        <svg
+          class="themeIcon"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512"
+        >
+          <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+          <path
+            d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"
+          />
+        </svg>
+      </div>
+      <div class="themeIconCon sun position-absolute d-none">
+        <svg
+          class="themeIcon"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512"
+        >
+          <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+          <path
+            d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"
+          />
+        </svg>
+      </div>
+    </div>
+
+    <!-- search modal -->
+    <div
+      class="modal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="search_modal"
+      id="search_modal"
+    >
+      <button
+        type="button"
+        class="close"
+        data-dismiss="modal"
+        aria-label="Close"
+      >
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <div class="widget widget_search">
+        <a href="index.html" class="logo">
+          <!-- <span class="logo-text py-20"><strong>V</strong>SG</span> -->
+          <img src="../../img/newIMG/logo.png" />
+        </a>
+        <form method="get" class="searchform search-form" action="/">
+          <div class="form-group">
+            <input
+              type="text"
+              value=""
+              name="search"
+              class="form-control"
+              placeholder="Search keyword"
+              id="modal-search-input"
+            />
+          </div>
+          <!-- <button type="submit" class="x">Search</button> -->
+          <button type="submit" class="btn">Search</button>
+          <!-- <button type="submit" class="btn"></button> -->
+        </form>
+      </div>
+    </div>
+
+    <!-- Unyson messages modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+      <div class="fw-messages-wrap ch-dl ls p-normal">
+        <!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+        <!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+      </div>
+    </div>
+    <!-- eof .modal -->
+
+    <!-- wrappers for visual page editor and boxed version of template -->
+    <div id="canvas">
+      <div id="box_wrapper">
+        <section class="page_topline ch-dl ls ms s-py-10 c-my-10">
+          <div class="container-fluid">
+            <div class="divider-4"></div>
+            <div class="row align-items-center">
+              <div class="col-lg-6 text-lg-left text-center d-none d-lg-block">
+                <p>
+                  <strong class="color-darkgrey"
+                    >Welcome to our site! Check our services and gain
+                    success!</strong
+                  >
+                </p>
+              </div>
+              <div class="col-lg-6 text-lg-right text-center">
+                <ul class="top-includes border-divided small-text">
+                  <!-- <li>
+                    <select
+                      class="form-group"
+                      style="width: 85px; height: 34px"
+                    >
+                      <option>MM</option>
+                      <option>EN</option>
+                    </select>
+                  </li> -->
+
+                  <li>
+                    <img
+                      src="../../img/mm.png"
+                      alt=""
+                      width="20px"
+                      height="10px"
+                      id="language-flag"
+                    />
+                    <a
+                      class="dropdown-toggle"
+                      href="#"
+                      id="navbarDropdownMenuLink"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Myanmar
+                    </a>
+                    <div
+                      class="dropdown-menu"
+                      aria-labelledby="navbarDropdownMenuLink"
+                      data-id="drop-down"
+                    >
+                      <a href="#"
+                        ><img
+                          src="../../img/mm.png"
+                          alt=""
+                          width="20px"
+                          height="10px"
+                          data-id="mm"
+                        />
+                        Myanmar</a
+                      >
+                      <a href="#"
+                        ><img
+                          src="../../images/flags/us.gif"
+                          alt=""
+                          data-id="en"
+                        />
+                        English</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <span class="d-none d-lg-block">
+                      <a href="../login.html"
+                        ><i class="fa fa-user"></i> Login</a
+                      >
+                    </span>
+                  </li>
+
+                  <!-- <li>
+                    <span class="d-none d-lg-block">
+                      <a href="../register.html"
+                        ><i class="fa fa-lock"></i> Register</a
+                      >
+                    </span>
+                  </li> -->
+
+                  <li>
+                    <span class="social-icons">
+                      <a href="#" class="fa fa-facebook" title="facebook"></a>
+                      <a href="#" class="fa fa-twitter" title="twitter"></a>
+                      <a href="#" class="fa fa-google" title="google"></a>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="divider-4"></div>
+          </div>
+        </section>
+
+        <section class="page_toplogo ch-dl ls s-py-30 header-layout2">
+          <div class="container-fluid">
+            <div class="row align-items-center">
+              <div class="col-lg-12">
+                <div
+                  class="d-lg-flex justify-content-lg-end align-items-lg-center"
+                >
+                  <div class="mr-auto">
+                    <!--
+                if you want to display toplogo info on smaller screens
+                than use following CSS classes below:
+                 d-sm-flex justify-content-sm-center
+               -->
+                    <div
+                      class="d-flex justify-content-center justify-content-lg-start"
+                    >
+                      <a href="../../index.html" class="logo">
+                        <span class="logo-text py-20"
+                          ><strong>VS</strong>group</span
+                        >
+                      </a>
+                    </div>
+                  </div>
+                  <!--
+              if you want to display toplogo info on smaller screens
+              than use following CSS classes below:
+              d-sm-flex justify-lg-content-end justify-content-sm-between align-items-center
+            -->
+                  <div
+                    class="d-none d-lg-flex justify-lg-content-end align-items-center"
+                  >
+                    <div class="media">
+                      <div class="icon-styled bordered round color-main fs-20">
+                        <i class="fa fa-map-marker"></i>
+                      </div>
+
+                      <div class="media-body">
+                        <h4>
+                          <strong>Open Hours</strong>
+                        </h4>
+                        <p>Mon-Fri: 9-17; Sat: 9-20; Sun: Off</p>
+                      </div>
+                    </div>
+
+                    <div class="media">
+                      <div class="icon-styled bordered round color-main fs-20">
+                        <i class="fa fa-phone"></i>
+                      </div>
+                      <div class="media-body">
+                        <h4>
+                          <strong>+959-123456789</strong>
+                        </h4>
+                        <p>Some Street, 123, Your City</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- header toggler -->
+
+                <span class="toggle_menu"><span></span></span>
+              </div>
+              <!--<div class="col-lg-6">-->
+
+              <!--</div>-->
+            </div>
+          </div>
+        </section>
+
+        <header class="page_header ch-dl ls s-bordertop nav-narrow">
+          <div class="container-fluid">
+            <div class="row align-items-center">
+              <div class="col-xl-12">
+                <div class="nav-wrap">
+                  <!-- main nav start -->
+                  <nav class="top-nav">
+                    <ul class="nav sf-menu">
+                      <li>
+                        <a href="../../index.html">Home</a>
+                      </li>
+
+                      <li>
+                        <a href="../team/team-list.html">Team</a>
+                      </li>
+
+                      <li>
+                        <a href="../event/event-list.html">Event</a>
+                      </li>
+
+                      <li>
+                        <a href="../about-us.html">About</a>
+                      </li>
+
+                      <li>
+                        <a href="../contact.html">Contact</a>
+                      </li>
+
+                      <li class="active">
+                        <a href="../blog/blog-list.html">BLOG</a>
+                      </li>
+
+                      <li>
+                        <a href="../faq.html">FAQ</a>
+                      </li>
+
+                      <li>
+                        <a href="#">Others</a>
+                        <ul>
+                          <li>
+                            <a href="../gallery/gallery-list.html">Gallery</a>
+                          </li>
+                          <li>
+                            <a href="../terms-of-use.html">Terms Of Use</a>
+                          </li>
+                          <li class="d-xl-none">
+                            <a href="../login.html">Login</a>
+                          </li>
+                          <!-- <li class="d-xl-none">
+                            <a href="../register.html">Register</a>
+                          </li> -->
+                        </ul>
+                      </li>
+                    </ul>
+                  </nav>
+                  <!-- eof main nav -->
+
+                  <ul class="top-includes">
+                    <li>
+                      <span>
+                        <a href="../ticket/submit-ticket-pre.html" class="btn small-btn btn-maincolor"
+                          ><span>Appointment</span></a
+                        >
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- header toggler -->
+
+          <!-- <span class="toggle_menu"><span></span></span> -->
+        </header>
+
+        <section class="page_title ds s-py-25" style="min-height: 350px">
+          <div class="container-fluid banner-content">
+            <div class="row">
+              <div class="divider-50"></div>
+
+              <div class="col-md-12 text-center">
+                <h1 class="bold">Blog List</h1>
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="../../index.html">Home</a>
+                  </li>
+                  <li class="breadcrumb-item active">Blog List</li>
+                </ol>
+              </div>
+
+              <div class="divider-50"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="ls ch-dl s-py-80 s-py-lg-120 s-py-xl-160 c-gutter-60">
+          <div class="container">
+            <div class="row">
+              <main class="col-lg-7 col-xl-8">
+                <article
+                  class="text-center text-md-left vertical-item content-padding hero-bg post type-post status-publish format-standard has-post-thumbnail sticky rounded rounded-image-top post-color1"
+                >
+                  <div class="item-media post-thumbnail">
+                    <img src="../../images/gallery/06.jpg" alt="" />
+                    <div class="media-links">
+                      <a class="abs-link" title="" href="../blog/blog.html"></a>
+                    </div>
+                  </div>
+                  <!-- .post-thumbnail -->
+
+                  <div class="item-content">
+                    <header class="entry-header">
+                      <div class="author-avatar">
+                        <img src="../../images/author.jpg" alt="" />
+                      </div>
+                      <div class="post-data bg-maincolor">
+                        <a href="#">
+                          <h6>02<span>oct</span></h6>
+                        </a>
+                      </div>
+                      <div class="header-content">
+                        <span class="post-tags">
+                          <i class="fa fa-tags fs-14"></i>
+                          <span class="screen-reader-text">Categories</span>
+                          <a href="#" rel="category tag"> Internet, </a>
+                          <a href="#" rel="category tag"> Cable, </a>
+                          <a href="#" rel="category tag"> Iptv </a>
+                        </span>
+                        <h3 class="entry-title">
+                          <a href="#" rel="bookmark">
+                            Sample Post With Image
+                          </a>
+                        </h3>
+                      </div>
+                    </header>
+                    <!-- .entry-header -->
+
+                    <div class="entry-content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Proin et ni slet dolor. Etiam sollicitudin efficitur
+                        magna eu sollicitudin. Vestibul umet nusi dolores est
+                        dui tu emet impecus.
+                      </p>
+                      <div
+                        class="post-footer d-md-flex align-items-center justify-content-between"
+                      >
+                        <a
+                          href="../blog/blog.html"
+                          class="read-more btn btn-outline-maincolor"
+                          ><span>Read More</span></a
+                        >
+                        <div class="entry-meta color-darkgrey post-meta">
+                          <span class="comment-count">
+                            <a href="#">
+                              <i class="color-main fa fa-comments fs-14"></i>
+                              5 comments
+                            </a>
+                          </span>
+                          <span class="like-count">
+                            <a href="#">
+                              <i class="color-main fa fa-heart fs-14"></i>
+                              36 Likes
+                            </a>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  <!-- .item-content -->
+                </article>
+                <!-- #post-## -->
+
+                <article
+                  class="text-center text-md-left vertical-item content-padding hero-bg post type-post status-publish format-video has-post-thumbnail rounded rounded-image-top post-color2"
+                >
+                  <div class="item-media post-thumbnail">
+                    <div class="embed-responsive embed-responsive-3by2">
+                      <a
+                        href="https://www.youtube.com/embed/mcixldqDIEQ"
+                        class="embed-placeholder"
+                      >
+                        <img src="../../images/gallery/07.jpg" alt="" />
+                      </a>
+                    </div>
+                  </div>
+                  <!-- .post-thumbnail -->
+
+                  <div class="item-content">
+                    <header class="entry-header">
+                      <div class="author-avatar">
+                        <img src="../images/author.jpg" alt="" />
+                      </div>
+                      <div class="post-data bg-maincolor">
+                        <a href="#">
+                          <h6>02<span>oct</span></h6>
+                        </a>
+                      </div>
+                      <div class="header-content">
+                        <span class="post-tags">
+                          <i class="fa fa-tags fs-14"></i>
+                          <span class="screen-reader-text">Categories</span>
+                          <a href="#" rel="category tag"> VOIP, </a>
+                          <a href="#" rel="category tag">
+                            Internet Provider,
+                          </a>
+                          <a href="#" rel="category tag"> IPTV </a>
+                        </span>
+                        <h3 class="entry-title">
+                          <a href="#" rel="bookmark">
+                            Sample Post With Video
+                          </a>
+                        </h3>
+                      </div>
+                    </header>
+                    <!-- .entry-header -->
+
+                    <div class="entry-content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Proin et ni slet dolor. Etiam sollicitudin efficitur
+                        magna eu sollicitudin. Vestibul umet nusi dolores est
+                        dui tu emet impecus.
+                      </p>
+                      <div
+                        class="post-footer d-md-flex align-items-center justify-content-between"
+                      >
+                        <a href="#" class="read-more btn btn-outline-maincolor"
+                          ><span>Read More</span></a
+                        >
+                        <div class="entry-meta color-darkgrey post-meta">
+                          <span class="comment-count">
+                            <a href="#">
+                              <i class="color-main7 fa fa-comments fs-14"></i>
+                              5 comments
+                            </a>
+                          </span>
+                          <span class="like-count">
+                            <a href="#">
+                              <i class="color-main7 fa fa-heart fs-14"></i>
+                              36 Likes
+                            </a>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  <!-- .item-content -->
+                </article>
+                <!-- #post-## -->
+
+                <article
+                  class="text-center text-md-left vertical-item content-padding hero-bg post type-post status-publish gallery has-post-thumbnail rounded rounded-image-top post-color3"
+                >
+                  <div class="item-media post-thumbnail">
+                    <div
+                      class="owl-carousel"
+                      data-loop="true"
+                      data-margin="0"
+                      data-nav="false"
+                      data-dots="true"
+                      data-autoplay="false"
+                      data-responsive-xs="1"
+                      data-responsive-sm="1"
+                      data-responsive-md="1"
+                      data-responsive-lg="1"
+                    >
+                      <div class="item">
+                        <img src="../../images/gallery/03.jpg" alt="image" />
+                      </div>
+                      <div class="item">
+                        <img src="../../images/gallery/06.jpg" alt="image" />
+                      </div>
+                      <div class="item">
+                        <img src="../../images/gallery/07.jpg" alt="image" />
+                      </div>
+                    </div>
+                    <!-- .owl-thumbnail -->
+                  </div>
+                  <!-- .post-thumbnail -->
+
+                  <div class="item-content">
+                    <header class="entry-header">
+                      <div class="author-avatar">
+                        <img src="../../images/author.jpg" alt="" />
+                      </div>
+                      <div class="post-data bg-maincolor">
+                        <a href="#">
+                          <h6>19<span>sep</span></h6>
+                        </a>
+                      </div>
+                      <div class="header-content">
+                        <span class="post-tags">
+                          <i class="fa fa-tags fs-14"></i>
+                          <span class="screen-reader-text">Categories</span>
+                          <a href="#" rel="category tag"> Browsing, </a>
+                          <a href="#" rel="category tag"> Cable </a>
+                        </span>
+                        <h3 class="entry-title">
+                          <a href="#" rel="bookmark">
+                            Sample Post With Carousel
+                          </a>
+                        </h3>
+                      </div>
+                    </header>
+                    <!-- .entry-header -->
+
+                    <div class="entry-content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Proin et ni slet dolor. Etiam sollicitudin efficitur
+                        magna eu sollicitudin. Vestibul umet nusi dolores est
+                        dui tu emet impecus.
+                      </p>
+                      <div
+                        class="post-footer d-md-flex align-items-center justify-content-between"
+                      >
+                        <a href="#" class="read-more btn btn-outline-maincolor"
+                          ><span>Read More</span></a
+                        >
+                        <div class="entry-meta color-darkgrey post-meta">
+                          <span class="comment-count">
+                            <a href="#">
+                              <i class="color-main6 fa fa-comments fs-14"></i>
+                              5 comments
+                            </a>
+                          </span>
+                          <span class="like-count">
+                            <a href="#">
+                              <i class="color-main6 fa fa-heart fs-14"></i>
+                              36 Likes
+                            </a>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  <!-- .item-content -->
+                </article>
+                <!-- #post-## -->
+
+                <article
+                  class="cover-image ds s-overlay post type-post status-publish format-status has-post-thumbnail"
+                >
+                  <div class="post-thumbnail">
+                    <a href="../../pages/blog/blog.html">
+                      <img src="../../images/gallery/05.jpg" alt="" />
+                    </a>
+                  </div>
+                  <!-- .post-thumbnail -->
+                  <header class="entry-header">
+                    <img src="../../images/author.jpg" class="avatar" alt="" />
+
+                    <h3 class="entry-title">
+                      <a href="#" rel="bookmark">
+                        Sample Post Format: Status
+                      </a>
+                    </h3>
+
+                    <!-- .entry-meta -->
+                  </header>
+                  <!-- .entry-header -->
+
+                  <div class="entry-content">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Proin et nisl dolor. Etiam sollicitudin efficitur magna eu
+                      sollicitudin. Vestibulum est dui. Etiam sollicitudin
+                      efficitur magna eu sollicitudin.
+                    </p>
+                  </div>
+                  <!-- .entry-content -->
+                  <div class="entry-meta">
+                    <a href="#" rel="bookmark">
+                      <i class="fa fa-calendar fs-14 color-main"></i>
+                      <time
+                        class="entry-date published updated"
+                        datetime="2018-09-18T15:15:12+00:00"
+                        >18.09.2018</time
+                      >
+                    </a>
+                    <span class="post-tags">
+                      <i class="fa fa-tags fs-14 color-main"></i>
+                      <span class="screen-reader-text">Categories</span>
+                      <a href="$" rel="category tag"> Status </a>
+                    </span>
+                  </div>
+                </article>
+                <!-- #post-## -->
+
+                <article
+                  class="post vertical-item content-padding hero-bg type-post status-publish format-link rounded rounded-image-top post-color1 text-center text-md-left"
+                >
+                  <div class="item-content">
+                    <header class="entry-header">
+                      <div class="post-data bg-maincolor">
+                        <a href="#">
+                          <h6>10<span>sep</span></h6>
+                        </a>
+                      </div>
+                      <div class="header-content">
+                        <span class="post-tags">
+                          <i class="fa fa-tags fs-14"></i>
+                          <span class="screen-reader-text">Categories</span>
+                          <a href="#" rel="category tag"> Browsing, </a>
+                          <a href="#" rel="category tag"> Cable </a>
+                        </span>
+                        <h3 class="entry-title">
+                          <a href="#" rel="bookmark"> Sample Post Link </a>
+                        </h3>
+                      </div>
+                      <div class="author-avatar">
+                        <img src="../../images/author.jpg" alt="" />
+                      </div>
+                    </header>
+                    <!-- .entry-header -->
+
+                    <div class="entry-content">
+                      <a class="link-main2" href="https://market.envato.com/"
+                        >https://market.envato.com/</a
+                      >
+                      <div
+                        class="post-footer d-md-flex align-items-center justify-content-between"
+                      >
+                        <a href="#" class="read-more btn btn-outline-maincolor"
+                          ><span>Read More</span></a
+                        >
+                        <div class="entry-meta color-darkgrey post-meta">
+                          <span class="comment-count">
+                            <a href="#">
+                              <i class="color-main fa fa-comments fs-14"></i>
+                              5 comments
+                            </a>
+                          </span>
+                          <span class="like-count">
+                            <a href="#">
+                              <i class="color-main fa fa-heart fs-14"></i>
+                              36 Likes
+                            </a>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  <!-- .item-content -->
+                </article>
+                <!-- #post-## -->
+
+                <article
+                  class="text-center text-md-left vertical-item post type-post status-publish format-chat has-post-thumbnail content-padding hero-bg rounded rounded-image-top post-color2"
+                >
+                  <div class="item-media post-thumbnail">
+                    <a href="#"
+                      ><img src="../../images/gallery/04.jpg" alt=""
+                    /></a>
+                    <div class="media-links">
+                      <a
+                        class="abs-link"
+                        title=""
+                        href="../../pages/blog/blog.html"
+                      ></a>
+                    </div>
+                  </div>
+                  <!-- .post-thumbnail -->
+
+                  <div class="item-content">
+                    <header class="entry-header">
+                      <div class="author-avatar">
+                        <img src="../../images/author.jpg" alt="" />
+                      </div>
+                      <div class="post-data bg-maincolor">
+                        <a href="#">
+                          <h6>10<span>sep</span></h6>
+                        </a>
+                      </div>
+                      <div class="header-content">
+                        <span class="post-tags">
+                          <i class="fa fa-tags fs-14"></i>
+                          <span class="screen-reader-text">Categories</span>
+                          <a href="#" rel="category tag"> VOIP, </a>
+                          <a href="#" rel="category tag">
+                            Internet Provider,
+                          </a>
+                          <a href="#" rel="category tag"> IPTV </a>
+                        </span>
+                        <h3 class="entry-title">
+                          <a href="#" rel="bookmark">
+                            Sample Post Format: Chat
+                          </a>
+                        </h3>
+                      </div>
+                    </header>
+                    <!-- .entry-header -->
+
+                    <div class="entry-content">
+                      <p>
+                        <b>Sam:</b> Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit.
+                      </p>
+                      <p>
+                        <b>George:</b> Proin et nisl dolor. Etiam sollicitudin
+                        efficitur magna eu sollicitudin. Etiam sollicitudin
+                        efficitur magna eu sollicitudin.
+                      </p>
+                      <p>
+                        <b>Sam:</b> Vestibulum est dui, elementum eu. Null am
+                        nec lacus erat.
+                      </p>
+                      <p>
+                        <b>George:</b> Nullam nec lacus erat. Phasellus id leo
+                        ac dolor pretium mattis at a erat. Fusce vitae enim
+                        condimentum erat finibus sollicitudin ut ac augue.
+                      </p>
+                      <p>
+                        <b>George:</b> Proin et nisl dolor. Etiam sollicitudin
+                        efficitur magna eu sollicitudin. Etiam sollicitudin
+                        efficitur magna eu sollicitudin.
+                      </p>
+                      <div
+                        class="post-footer d-md-flex align-items-center justify-content-between"
+                      >
+                        <a href="#" class="read-more btn btn-outline-maincolor"
+                          ><span>Read More</span></a
+                        >
+                        <div class="entry-meta color-darkgrey post-meta">
+                          <span class="comment-count">
+                            <a href="#">
+                              <i class="color-main7 fa fa-comments fs-14"></i>
+                              5 comments
+                            </a>
+                          </span>
+                          <span class="like-count">
+                            <a href="#">
+                              <i class="color-main7 fa fa-heart fs-14"></i>
+                              36 Likes
+                            </a>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  <!-- .item-content -->
+                </article>
+                <!-- #post-## -->
+
+                <article
+                  class="cover-image ds s-overlay post type-post status-publish format-quote has-post-thumbnail"
+                >
+                  <div class="post-thumbnail">
+                    <a href="../../pages/blog/blog.html"
+                      ><img src="../../images/gallery/11.jpg" alt=""
+                    /></a>
+                  </div>
+                  <!-- .post-thumbnail -->
+                  <header class="entry-header">
+                    <img src="../../images/author.jpg" class="avatar" alt="" />
+                  </header>
+                  <div class="entry-content">
+                    <blockquote>
+                      <cite>
+                        <a
+                          href="http://www.brainyquote.com/quotes/quotes/m/marktwain163473.html"
+                          >Gregory D. Grey, Client
+                        </a>
+                      </cite>
+                      <p>
+                        We had hughesnet for ages and were completely unhappy
+                        with it. We switched to MaxiCom and have never looked
+                        back. We are much much happier!
+                      </p>
+                    </blockquote>
+                    <div class="entry-meta">
+                      <a href="#" rel="bookmark">
+                        <i class="fa fa-calendar fs-14 color-main"></i>
+                        <time
+                          class="entry-date published updated"
+                          datetime="2018-09-18T15:15:12+00:00"
+                          >18.09.2018</time
+                        >
+                      </a>
+                      <span class="post-tags">
+                        <i class="fa fa-tags fs-14 color-main"></i>
+                        <span class="screen-reader-text">Categories</span>
+                        <a href="#" rel="category tag"> quote </a>
+                      </span>
+                    </div>
+                  </div>
+                  <!-- .entry-content -->
+                </article>
+                <!-- #post-## -->
+
+                <article
+                  class="post vertical-item content-padding hero-bg type-post status-publish format-aside rounded rounded-image-top post-color3 text-center text-md-left"
+                >
+                  <div class="item-content">
+                    <header class="entry-header">
+                      <div class="post-data bg-maincolor">
+                        <a href="#">
+                          <h6>10<span>sep</span></h6>
+                        </a>
+                      </div>
+                      <div class="header-content">
+                        <span class="post-tags">
+                          <i class="fa fa-tags fs-14"></i>
+                          <span class="screen-reader-text">Categories</span>
+                          <a href="#" rel="category tag"> Browsing, </a>
+                          <a href="#" rel="category tag"> Cable </a>
+                        </span>
+                        <h3 class="entry-title">
+                          <a href="#" rel="bookmark">
+                            Sample Post Format: Aside
+                          </a>
+                        </h3>
+                      </div>
+                      <div class="author-avatar">
+                        <img src="../../images/author.jpg" alt="" />
+                      </div>
+                    </header>
+                    <!-- .entry-header -->
+
+                    <div class="entry-content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Proin et nisl dolor. Etiam sollicitudin efficitur magna
+                        eu sollicitudin. Vestibulum est dui, elementum eu
+                        viverra finibus, placerat a nisi. Pellentesque aliquam
+                        sodales nunc, quis interdum nisl convallis in. Nulla
+                        lobortis nisl sed massa ullamcorper, et pellentesque
+                        dolor congue. Nam magna purus, auctor sed dui.
+                      </p>
+                      <div
+                        class="post-footer d-md-flex align-items-center justify-content-between"
+                      >
+                        <a href="#" class="read-more btn btn-outline-maincolor"
+                          ><span>Read More</span></a
+                        >
+                        <div class="entry-meta color-darkgrey post-meta">
+                          <span class="comment-count">
+                            <a href="#">
+                              <i class="color-main6 fa fa-comments fs-14"></i>
+                              5 comments
+                            </a>
+                          </span>
+                          <span class="like-count">
+                            <a href="#">
+                              <i class="color-main6 fa fa-heart fs-14"></i>
+                              36 Likes
+                            </a>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  <!-- .item-content -->
+                </article>
+                <!-- #post-## -->
+              </main>
+
+              <aside class="col-lg-5 col-xl-4">
+                <div class="widget widget_search">
+                  <h5 class="widget-title">Search</h5>
+                  <form
+                    role="search"
+                    method="get"
+                    class="search-form"
+                    action="/"
+                  >
+                    <label for="search-form-widget">
+                      <span class="screen-reader-text">Search for:</span>
+                    </label>
+                    <input
+                      type="search"
+                      id="search-form-widget"
+                      class="search-field"
+                      placeholder="Search Keyword"
+                      value=""
+                      name="search"
+                    />
+                    <button type="submit" class="search-submit">
+                      <span class="screen-reader-text">Search</span>
+                    </button>
+                  </form>
+                </div>
+
+                <div class="widget widget_categories">
+                  <h5 class="widget-title categories-tilte">Categories</h5>
+
+                  <ul>
+                    <li class="cat-item">
+                      <a href="#">Internet Provider</a>
+                      <span class="color-main2">(12)</span>
+                    </li>
+                    <li class="cat-item">
+                      <a href="#">TV solution</a>
+                      <span class="color-main2">(8)</span>
+                    </li>
+                    <li class="cat-item">
+                      <a href="#">Digital Trade</a>
+                      <span class="color-main2">(10)</span>
+                    </li>
+                    <li class="cat-item">
+                      <a href="#">Technologies</a>
+                      <span class="color-main2">(21)</span>
+                    </li>
+                    <li class="cat-item">
+                      <a href="#">E-Commerce </a>
+                      <span class="color-main2">(6)</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="widget widget_recent_posts">
+                  <h5 class="widget-title">Recent Posts</h5>
+                  <ul class="list-unstyled">
+                    <li class="media">
+                      <a class="media-image" href="#">
+                        <img src="../../images/recent_post1.jpg" alt="" />
+                      </a>
+                      <div class="media-body">
+                        <h4>
+                          <a href="#"
+                            >Lorem ipsum dolor sit am consectetur tus.</a
+                          >
+                        </h4>
+                        <p class="item-meta">September 01, 2018</p>
+                      </div>
+                    </li>
+
+                    <li class="media">
+                      <a class="media-image" href="#">
+                        <img src="../../images/recent_post2.jpg" alt="" />
+                      </a>
+                      <div class="media-body">
+                        <h4>
+                          <a href="#"
+                            >Phasellus at nisl lacus do necsem port.</a
+                          >
+                        </h4>
+                        <p class="item-meta">September 03, 2018</p>
+                      </div>
+                    </li>
+
+                    <li class="media">
+                      <a class="media-image" href="#">
+                        <img src="../../images/recent_post3.jpg" alt="" />
+                      </a>
+                      <div class="media-body">
+                        <h4>
+                          <a href="#"
+                            >Nunc quis enim non est fi nugilla libero est.</a
+                          >
+                        </h4>
+                        <p class="item-meta">September 09, 2018</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="widget widget_portfolio">
+                  <h5 class="widget-title">Recent Portfolio</h5>
+                  <div class="photo">
+                    <a href="#">
+                      <img src="../../images/square/03.jpg" alt="" />
+                    </a>
+                  </div>
+                  <div class="photo">
+                    <a href="#">
+                      <img src="../../images/square/01.jpg" alt="" />
+                    </a>
+                  </div>
+                  <div class="photo">
+                    <a href="#">
+                      <img src="../../images/square/07.jpg" alt="" />
+                    </a>
+                  </div>
+                  <div class="photo">
+                    <a href="#">
+                      <img src="../../images/square/05.jpg" alt="" />
+                    </a>
+                  </div>
+                  <div class="photo">
+                    <a href="#">
+                      <img src="../../images/square/09.jpg" alt="" />
+                    </a>
+                  </div>
+                  <div class="photo">
+                    <a href="#">
+                      <img src="../../images/square/06.jpg" alt="" />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="widget widget_tag_cloud">
+                  <h5 class="widget-title">Tags</h5>
+
+                  <div class="tagcloud">
+                    <a href="#" class="tag-cloud-link"> Cabel </a>
+
+                    <a href="#" class="tag-cloud-link"> IPTV </a>
+
+                    <a href="#" class="tag-cloud-link"> Internet </a>
+
+                    <a href="#" class="tag-cloud-link"> Provider Services </a>
+                    <a href="#" class="tag-cloud-link"> Router Setup </a>
+                  </div>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="footer-carousel c-gutter-0 container-px-0 s-py-0">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <div
+                  class="owl-carousel small-gallery-carousel"
+                  data-margin="0"
+                  data-responsive-lg="8"
+                  data-responsive-md="4"
+                  data-responsive-sm="3"
+                  data-responsive-xs="2"
+                  data-nav="true"
+                  data-loop="true"
+                >
+                  <a
+                    href="../../images/square/03.jpg"
+                    class="photoswipe-link"
+                    data-width="800"
+                    data-height="800"
+                  >
+                    <img src="../../images/square/03.jpg" alt="" />
+                  </a>
+                  <a
+                    href="../../images/square/04.jpg"
+                    class="photoswipe-link"
+                    data-width="800"
+                    data-height="800"
+                  >
+                    <img src="../../images/square/04.jpg" alt="" />
+                  </a>
+                  <a
+                    href="../../images/square/05.jpg"
+                    class="photoswipe-link"
+                    data-width="800"
+                    data-height="800"
+                  >
+                    <img src="../../images/square/05.jpg" alt="" />
+                  </a>
+                  <a
+                    href="../../images/square/06.jpg"
+                    class="photoswipe-link"
+                    data-width="800"
+                    data-height="800"
+                  >
+                    <img src="../../images/square/06.jpg" alt="" />
+                  </a>
+                  <a
+                    href="../../images/square/07.jpg"
+                    class="photoswipe-link"
+                    data-width="800"
+                    data-height="800"
+                  >
+                    <img src="../../images/square/07.jpg" alt="" />
+                  </a>
+                  <a
+                    href="../../images/square/08.jpg"
+                    class="photoswipe-link"
+                    data-width="800"
+                    data-height="800"
+                  >
+                    <img src="../../images/square/08.jpg" alt="" />
+                  </a>
+                  <a
+                    href="../../images/square/09.jpg"
+                    class="photoswipe-link"
+                    data-width="800"
+                    data-height="800"
+                  >
+                    <img src="../../images/square/09.jpg" alt="" />
+                  </a>
+                  <a
+                    href="../../images/square/10.jpg"
+                    class="photoswipe-link"
+                    data-width="800"
+                    data-height="800"
+                  >
+                    <img src="../../images/square/10.jpg" alt="" />
+                  </a>
+                  <a
+                    href="../../images/square/01.jpg"
+                    class="photoswipe-link"
+                    data-width="800"
+                    data-height="800"
+                  >
+                    <img src="../../images/square/01.jpg" alt="" />
+                  </a>
+                  <a
+                    href="../../images/square/02.jpg"
+                    class="photoswipe-link"
+                    data-width="800"
+                    data-height="800"
+                  >
+                    <img src="../../images/square/02.jpg" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer
+          class="page_footer ch-dl ls s-pt-80 s-pb-70 s-py-lg-120 s-pt-xl-135 s-pb-xl-105 c-gutter-60 text-center text-md-left"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="divider-20 d-none d-xl-block"></div>
+
+              <div
+                class="col-md-6 col-xl-3 order-xl-1 order-md-1 animate"
+                data-animation="fadeInUp"
+              >
+                <div class="widget widget_text">
+                  <h4 class="widget-title">About</h4>
+                  <p>
+                    At VSG, we build websites, e-commerance app, websites
+                    hosting, selling domain, writing creativer content and
+                    database portal.
+                  </p>
+                  <div class="widget widget_social_buttons">
+                    <a
+                      href="#"
+                      class="fa fa-facebook color-bg-icon rounded-icon"
+                      title="facebook"
+                    ></a>
+                    <a
+                      href="#"
+                      class="fa fa-twitter color-bg-icon rounded-icon"
+                      title="twitter"
+                    ></a>
+                    <a
+                      href="#"
+                      class="fa fa-youtube-play color-bg-icon rounded-icon"
+                      title="youtube-play"
+                    ></a>
+                    <a
+                      href="#"
+                      class="fa fa-envelope color-bg-icon rounded-icon"
+                      title="email"
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-6 col-xl-3 order-xl-2 order-md-4 animate"
+                data-animation="fadeInUp"
+              >
+                <div class="widget links">
+                  <h4 class="widget-title">Links</h4>
+                  <ul>
+                    <li>
+                      <a href="../../index.html">Home</a>
+                    </li>
+
+                    <li class="active">
+                      <a href="../team/team-list.html">Team</a>
+                    </li>
+                    <li>
+                      <a href="../about-us.html">About</a>
+                    </li>
+
+                    <li>
+                      <a href="../contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="col-md-6 col-xl-3 order-xl-3 order-md-3 animate"
+                data-animation="fadeInUp"
+              >
+                <div class="widget services-links">
+                  <h4 class="widget-title">Services</h4>
+                  <ul>
+                    <li class="cat-item">
+                      <a href="blog-right.html">Web Development</a>
+                    </li>
+                    <li class="cat-item">
+                      <a href="blog-right.html">Web Hosting</a>
+                    </li>
+                    <li class="cat-item">
+                      <a href="blog-right.html">Content writing </a>
+                    </li>
+                    <li class="cat-item">
+                      <a href="blog-right.html">Domain Service</a>
+                    </li>
+                    <li class="cat-item">
+                      <a href="blog-right.html">Database Portal</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="col-md-6 col-xl-3 order-xl-4 order-md-2 animate"
+                data-animation="fadeInUp"
+              >
+                <div class="widget widget_icons_list">
+                  <h4 class="widget-title">Call Us</h4>
+                  <p>23-456-7890</p>
+                  <a href="#" class="small-text">
+                    <i class="fa fa-envelope-o color-main fs-14"></i>
+                    email us
+                  </a>
+                  <h4 class="widget-title">Visit Us</h4>
+                  <p>246 Benson St., Ashwaubenon</p>
+                  <a href="#" class="small-text">
+                    <i class="fa fa-map-marker color-main3 fs-14"></i>
+                    Get Direction
+                  </a>
+                </div>
+                <div class="divider-45 d-none d-md-block d-xlz-none"></div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <section class="page_copyright ds s-py-10 ms">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="divider-15 d-none d-lg-block"></div>
+              <div class="col-md-12 text-center">
+                <p>
+                  &copy; Copyright <span class="copyright_year">2022</span> All
+                  Rights Reserved
+                </p>
+              </div>
+              <div class="divider-15 d-none d-lg-block"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- eof #box_wrapper -->
+    </div>
+    <!-- eof #canvas -->
+
+    <script src="../../js/compressed.js"></script>
+    <script src="../../js/main.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".dropdown-menu a").click(function () {
+          $image = $(this).find("img").attr("src");
+          $("#navbarDropdownMenuLink").html($(this).text());
+          $("#language-flag").attr("src", $image);
+        });
+      });
+    </script>
+  </body>
+</html>
